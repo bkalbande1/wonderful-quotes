@@ -5,7 +5,8 @@ const quotes = [
     "In three words I can sum up everything I've learned about life: it goes on. - Robert Frost",
     "Life is what happens when you're busy making other plans. - John Lennon",
     "Get busy living or get busy dying. - Stephen King",
-    "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. - Ralph Waldo Emerson"
+    "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. - Ralph Waldo Emerson",
+    "The only way to get the best of an argument is to AVOID it - Bhushan"
 ];
 
 // Generate a random quote
