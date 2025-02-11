@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote and Visit Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to the Quote Page</h1>
+        <div class="quote-section">
+            <h2>Random Quote:</h2>
+            <p id="quote"></p>
+        </div>
+        <div class="visit-counter">
+            <h3>Page Visit Count:</h3>
+            <p id="visit-count"></p>
+        </div>
+        <button class="new-quote-btn" onclick="generateQuote()">Generate New Quote</button>
+
+        <div class="add-quote-form">
+            <h3>Add a New Quote</h3>
+            <input type="text" id="new-quote-input" placeholder="Enter your new quote here" />
+            <button onclick="addNewQuote()">Add Quote</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

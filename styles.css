@@ -1,0 +1,95 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.title {
+    color: #ff6347;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.quote-section {
+    background-color: #f5deb3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.quote-section h2 {
+    color: #8b4513;
+}
+
+#quote {
+    font-size: 1.2em;
+    color: #2f4f4f;
+    font-style: italic;
+}
+
+.visit-counter {
+    background-color: #dcdcdc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#visit-count {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4b0082;
+}
+
+.new-quote-btn {
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.new-quote-btn:hover {
+    background-color: #228b22;
+}
+
+.add-quote-form {
+    margin-top: 20px;
+}
+
+.add-quote-form input {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.add-quote-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-quote-form button:hover {
+    background-color: #ff8c00;
+}
